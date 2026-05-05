@@ -4,6 +4,10 @@ A PlatformIO firmware for the Seeed Studio XIAO ESP32-S3 Plus, part of the Maker
 
 ![Project Image](image.png)
 
+## Hardware
+- **Main Board:** [Seeed Studio XIAO ESP32-S3 Plus](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)
+- **Expansion Base:** [Seeed Studio XIAO Expansion Board Wiki](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
+
 ## Website
 [Sustainable Living Lab (SL2)](https://www.sl2square.org)
 
