@@ -8,22 +8,47 @@ A PlatformIO firmware for the Seeed Studio XIAO ESP32-S3 Plus, part of the Maker
 - **Main Board:** [Seeed Studio XIAO ESP32-S3 Plus](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)
 - **Expansion Base:** [Seeed Studio XIAO Expansion Board Wiki](https://wiki.seeedstudio.com/Seeeduino-XIAO-Expansion-Board/)
 
-## Website
-[Sustainable Living Lab (SL2)](https://www.sl2square.org)
-
 ## Features
 - **Board Bring-up:** Automated diagnostic tests for OLED, RTC, and WiFi.
 - **Clock & Weather:** Live NTP clock and Singapore weather updates.
 - **Configurable:** Feature blocks can be toggled via compile-time switches.
 
-## Quick Start
-1. Install PlatformIO.
-2. Build and Upload using the commands in `GEMINI.md`.
+## Development Setup
+
+### 1. Prerequisites
+- **Visual Studio Code:** Download and install from [code.visualstudio.com](https://code.visualstudio.com/).
+- **PlatformIO IDE Extension:** Install the PlatformIO IDE extension from the VS Code Marketplace.
+
+### 2. Opening the Project
+1. Open Visual Studio Code.
+2. Click on the **PlatformIO** icon on the left sidebar (looks like an ant).
+3. Select **Pick a folder** (or **Open Project**) and navigate to the `UTC_2738_STEER` directory.
+
+### 3. Building and Uploading
+- **Build:** Click the **Checkmark** icon in the VS Code status bar.
+- **Upload:** Click the **Right Arrow** icon in the VS Code status bar.
+- **Serial Monitor:** Click the **Plug** icon in the VS Code status bar.
+
+### 4. Command Line Usage
+If you prefer using the terminal, always use the absolute path to the PlatformIO executable as configured for this environment:
+- **Build:**
+  ```powershell
+  C:\Users\teren\.platformio\penv\Scripts\pio.exe run --environment seeed-xiao-esp32-s3-plus
+  ```
+- **Upload:**
+  ```powershell
+  C:\Users\teren\.platformio\penv\Scripts\pio.exe run --target upload --environment seeed-xiao-esp32-s3-plus
+  ```
+- **Monitor:**
+  ```powershell
+  C:\Users\teren\.platformio\penv\Scripts\pio.exe device monitor
+  ```
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Copyright
 © 2026 SL2 - Sustainable Living Lab
+[Sustainable Living Lab (SL2)](https://www.sl2square.org)
 
 **Version:** 0.1.0
