@@ -19,17 +19,31 @@ A PlatformIO firmware for the Seeed Studio XIAO ESP32-S3 Plus, part of the Maker
 - **Visual Studio Code:** Download and install from [code.visualstudio.com](https://code.visualstudio.com/).
 - **PlatformIO IDE Extension:** Install the PlatformIO IDE extension from the VS Code Marketplace.
 
-### 2. Opening the Project
+### 2. Cloning the Project
+You can clone this repository directly within VS Code or via the terminal.
+
+**Via VS Code:**
+1. Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on macOS) to open the Command Palette.
+2. Type `Git: Clone` and press Enter.
+3. Paste the repository URL: `https://github.com/SustainableLivingLab/UTC_2738_STEER.git`
+4. Select a local folder to save the project and click **Open** when prompted.
+
+**Via Terminal:**
+```powershell
+git clone https://github.com/SustainableLivingLab/UTC_2738_STEER.git
+```
+
+### 3. Opening the Project
 1. Open Visual Studio Code.
 2. Click on the **PlatformIO** icon on the left sidebar (looks like an ant).
 3. Select **Pick a folder** (or **Open Project**) and navigate to the `UTC_2738_STEER` directory.
 
-### 3. Building and Uploading
+### 4. Building and Uploading
 - **Build:** Click the **Checkmark** icon in the VS Code status bar.
 - **Upload:** Click the **Right Arrow** icon in the VS Code status bar.
 - **Serial Monitor:** Click the **Plug** icon in the VS Code status bar.
 
-### 4. Command Line Usage
+### 5. Command Line Usage
 If you prefer using the terminal, always use the absolute path to the PlatformIO executable as configured for this environment:
 - **Build:**
   ```powershell
