@@ -29,9 +29,13 @@ Now that you have your own repository, clone it to your local machine using VS C
 3. Select **Pick a folder** (or **Open Project**) and navigate to the `UTC_2738_STEER` directory.
 
 ## 5. Building and Uploading
-- **Build:** Click the **Checkmark** icon in the VS Code status bar.
-- **Upload:** Click the **Right Arrow** icon in the VS Code status bar.
-- **Serial Monitor:** Click the **Plug** icon in the VS Code status bar.
+- Many students miss the build button in the VS Code status bar. If you cannot find it, open the **PlatformIO** sidebar and use **PROJECT TASKS** -> **seeed-xiao-esp32-s3-plus** -> **General** -> **Build**.
+
+![PlatformIO Build Button](assets/platformio-build-button.png)
+
+- **Build:** Click **Build** in the PlatformIO task list shown above, or click the **Checkmark** icon in the VS Code status bar.
+- **Upload:** Click **Upload** in the same PlatformIO task list, or click the **Right Arrow** icon in the VS Code status bar.
+- **Serial Monitor:** Click **Monitor** in the same PlatformIO task list, or click the **Plug** icon in the VS Code status bar.
 
 ## 6. Command Line Usage
 If you prefer using the terminal, always use the absolute path to the PlatformIO executable as configured for this environment:

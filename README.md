@@ -2,7 +2,7 @@
 
 A PlatformIO firmware for the Seeed Studio XIAO ESP32-S3 Plus, part of the Maker Starter Kit.
 
-![Project Image](image.png)
+![Project Image](assets/utc2738-board-photo.png)
 
 ## Hardware
 
@@ -30,4 +30,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 © 2026 SL2 - Sustainable Living Lab
 [Sustainable Living Lab (SL2)](https://www.sl2square.org)
 
-**Version:** 0.1.1
+**Version:** 0.1.2
