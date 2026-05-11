@@ -27,13 +27,6 @@ def patch_framework_sources():
         return
 
     patch_file(
-        Path(framework_dir) / "cores" / "esp32" / "freertos_stats.cpp",
-        "  volatile UBaseType_t uxArraySize = 0, x = 0;",
-        "  UBaseType_t uxArraySize = 0, x = 0;",
-        "freertos_stats patch",
-    )
-
-    patch_file(
         Path(framework_dir) / "cores" / "esp32" / "esp32-hal-i2c-slave.c",
         "  i2c_ll_slave_init(i2c->dev);",
         "  typeof(i2c->dev->ctr) ctrl_reg;\n  ctrl_reg.val = 0;\n  ctrl_reg.sda_force_out = 1;\n  ctrl_reg.scl_force_out = 1;\n  i2c->dev->ctr.val = ctrl_reg.val;\n  i2c->dev->fifo_conf.fifo_addr_cfg_en = 0;",
