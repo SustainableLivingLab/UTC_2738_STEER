@@ -64,3 +64,9 @@ It is important to document your project properly. Please **replace the content*
     - **Hardware:** List all hardware components used.
     - **Software Setup:** Briefly mention any specific libraries or configurations.
     - **Usage:** How should someone interact with your finished project?
+
+## 9. AI Setup (AI.md)
+You are encouraged to use AI tools (like ChatGPT, Copilot, etc.) responsibly. Please refer to the `AI.md` file for instructions on:
+- How to set up and configure AI tools for this project.
+- Best practices for using AI in development.
+- How to document your AI usage and verification.
