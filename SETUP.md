@@ -48,13 +48,22 @@ If you prefer using the terminal, always use the absolute path to the PlatformIO
   C:\Users\teren\.platformio\penv\Scripts\pio.exe device monitor
   ```
 
-## 7. Starting Your Own Project
+## 7. Refreshing IntelliSense Metadata
+If VS Code reports that it cannot resolve the ESP32-S3 compiler path and falls back to `cl.exe`, regenerate the PlatformIO compilation database:
+
+```powershell
+C:\Users\teren\.platformio\penv\Scripts\platformio.exe run -t compiledb -e seeed-xiao-esp32-s3-plus
+```
+
+This refreshes the generated C/C++ configuration and `compile_commands.json` used by IntelliSense.
+
+## 8. Starting Your Own Project
 Once you have successfully built and tested the template code, you can begin your own project.
 
 1. **Clean up:** You can remove the existing source code in the `src/` directory.
 2. **Your Code:** Start writing your own firmware in the `src/` directory (e.g., `main.cpp`).
 
-## 8. Documentation (README.md)
+## 9. Documentation (README.md)
 It is important to document your project properly. Please **replace the content** of your `README.md` with the following structure:
 
 1. **Title:** Clear name for your project.
@@ -65,7 +74,7 @@ It is important to document your project properly. Please **replace the content*
     - **Software Setup:** Briefly mention any specific libraries or configurations.
     - **Usage:** How should someone interact with your finished project?
 
-## 9. AI Setup (AI.md)
+## 10. AI Setup (AI.md)
 You are encouraged to use AI tools (like ChatGPT, Copilot, etc.) responsibly. Please refer to the `AI.md` file for instructions on:
 - How to set up and configure AI tools for this project.
 - Best practices for using AI in development.
