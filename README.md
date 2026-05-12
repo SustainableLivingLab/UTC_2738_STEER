@@ -21,6 +21,10 @@ Students should first follow the official Seeed Studio XIAO ESP32S3 getting star
 
 After the board is recognized by your computer, follow the project-specific instructions in [SETUP.md](SETUP.md) to configure PlatformIO, build the firmware, and upload it.
 
+## Learning Notes
+
+For a beginner-friendly overview of common embedded hardware concepts such as voltage, GPIO, I2C, SPI, I2S, UART, and logic levels, see [EMBEDDED_ELECTRONICS_BASICS.md](EMBEDDED_ELECTRONICS_BASICS.md).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
