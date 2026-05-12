@@ -10,6 +10,9 @@ Do **not** clone this project directly. Instead, use it as a template to create 
 
 1. Go to the original repository: [https://github.com/SustainableLivingLab/UTC_2738_STEER](https://github.com/SustainableLivingLab/UTC_2738_STEER)
 2. Click the green **"Use this template"** button near the top right.
+
+![GitHub Use This Template Button](assets/github-use-this-template-button.png)
+
 3. Select **"Create a new repository"**.
 4. **Name your repo:** Use your specific project name. Use **underscores** (e.g., `My_Project_Name`) instead of spaces to prevent issues.
 5. Once your new repository is created, click the **"Code"** button and copy your repository's URL.
